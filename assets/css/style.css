@@ -72,21 +72,8 @@
   a {
       color: #777777;
       text-decoration: none;
-  }
-  
-  /* Nav links turn teal on hover. */
-  a:hover {
-    color: #4aaaa5;
-  }
-  
-
-  .icon {
-      width: 60px;
-      height: auto;
-      color: none;
-      border-right: none;
-  }
-  
+  }  
+  /*Style for section*/
   section	{
       background-color: #ffffff;
       float: left;
@@ -94,23 +81,7 @@
       border: 2px solid #dddddd;
   }
   
-  input,
-  textarea {
-      width: 100%;
-      padding: 10px 20px 10px 10px;
-      margin: 8px 0;
-      border-color: #dddddd;
-      border-style: solid;
-      border-width: thin;
-  }
-  
-  /* Need to use a pseudoclass to control placeholder. */
-  input,
-  textarea,
-  input::-webkit-input-placeholder {
-      font-size: 16px;
-  }
-  
+  /*style for footer*/
   footer {
       clear: both;
       margin: 0 auto;
@@ -124,12 +95,14 @@
       text-align: center;
   }
   
+  /*style for header container*/
   .header-container {
       border-bottom: 2px solid #cccccc;
       background-color: #ffffff;
       height: 60px;
   }
   
+  /*style for main container*/
   .main-container {
       clear: both;
       overflow: auto;
@@ -145,15 +118,6 @@
       width: 250px;
       height: 100px;
       margin: 20px;
-  }
-  
-  /* Rotates project in portfolio on hover. */
-  .box:hover {
-      transform: rotate(-10deg);
-      -ms-transform: rotate(-10deg);
-      -webkit-transform: rotate(-10deg);
-      -moz-transform: rotate(-10deg);
-      -o-transform: rotate(-10deg);
   }
   
   .project {
@@ -185,10 +149,6 @@
       top: -8px;
   }
   
-  /* Button turns dark on hover. */
-  .button:hover {
-      background-color: #374865;
-  }
   
   /*Style for main-bio, contact-form and project-portfolio*/
   #main-bio,

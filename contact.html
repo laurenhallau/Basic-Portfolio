@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<!-- Document responsive across devices. -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Document's character set. -->
+    <meta charset="UTF-8">
+	<title>Lauren W Hallau</title>
+	<!-- Linking CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css"
+	      href="https://fonts.googleapis.com/css?family=Montserrat">
+</head>
+<body>
+	<!--Header portion of the page-->	
+	<div class="header-container">
+		<header>Lauren W Hallau</header>
+
+		<nav>
+      <!--Navigation portion -->
+			<ul>
+				<li class="border"><a href="index.html">About</a></li>
+				<li class="border"><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+	<!--All contact form items are here -->
+	<div class="main-container">
+		<section id="contact-form">
+			<h2>Contact</h2>
+			<form id="contact" action="login.php" method="post">    
+        <!--Name Box -->
+				<label for="name">Name</label><br>
+				<input id="name" type="text" autocomplete="username" placeholder="John Doe" required><br>
+        <!--Email Box -->
+				<label for="email">Email</label><br>
+				<input id="email" type="email" name="email" autocomplete="email"
+					   placeholder="example@gmail.com" required><br>
+        <!--Message Box -->
+				<label for="textfield">Message</label><br>
+				<textarea id="textfield" rows="7"></textarea><br>
+        <!--Submit Button-->
+				<button class="button" type="submit" name="submit">Submit</button>
+			</form>
+    	</section>
+	</div>
+
+  <!--Footer of the page -->
+	<footer>&copy; Lauren W Hallau</footer>
+</body>
+</html>
